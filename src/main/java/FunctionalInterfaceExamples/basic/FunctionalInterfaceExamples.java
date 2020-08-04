@@ -44,6 +44,7 @@ public class FunctionalInterfaceExamples {
 
         /*
             Consumer
+            - return 값이 없
          */
         final Consumer<String> print = new Consumer<String>() {
             @Override
@@ -102,6 +103,7 @@ public class FunctionalInterfaceExamples {
         }
         return results;
     }
+
 
     private static String getVeryExpensiveValue() {
         try {
